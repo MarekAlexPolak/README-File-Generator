@@ -14,6 +14,7 @@
 const inquirer = require("inquirer");
 const fs = require("fs");
 const genMd = require("./utils/generateMarkdown.js");
+const generateMarkdown = require("./utils/generateMarkdown.js");
 
 
 const questions = [
@@ -66,18 +67,16 @@ const questions = [
 ]
 
 function writeToFile(fileName, data){
-    (data => {
-        let genFile = genMd(data);
-        fs.writeFile("README.md", genFile, err => {
-            if (err) console.log(`Something went wrong ${err}`);
-        })
+    fs.writeFile(fileName, data, err => {
+        if (err) console.log(`Something went wrong ${err}`);
     })
 }
+
 
 function init() {
     inquirer.prompt(questions)
     .then(data => {
-        writeToFile("README.md", genMd(data));
+        writeToFile("README.md", generateMarkdown(data));
     })
 }
 
