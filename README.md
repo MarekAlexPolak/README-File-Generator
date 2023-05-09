@@ -44,6 +44,6 @@
 
   ## Contact Information
   
-  [My Github](https://github.com/MarekAlexPolak)
+  [My Github](https://github.com/MarekAlexPolak) \n
   Email: markalexpolak@gmail.com
   
