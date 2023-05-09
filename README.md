@@ -1,11 +1,11 @@
 
-  <img src="https://img.shields.io/badge/License-N/A-purple">
+  <img src="https://img.shields.io/badge/License-N/A-yellow">
   
-  # README File Generator
+  # ReadMe File Generator
 
   ## Description
 
-  An application used to generate a professional README page
+  an application which generates a professional readme page
 
   ## Table of Contents
 
@@ -20,11 +20,11 @@
 
   ## Installation
 
-  download the inquirer using npm i inquirer
+  install the inquirer
 
   ## Usage
 
-  Run the application by right clicking index.js and opening the terminal. Then you type node index.js to run the application. Finally you follow the prompts to give the input for your readme file
+  Run the code in the terminal using node index.js. This will then prompt you with a series of questions. once they are answered a readme file will be generated
 
   ## Credits
 
@@ -40,10 +40,10 @@
 
   ## How to Contribute
   
-  N/A
+  N/a
 
   ## Contact Information
   
-  Github: [Github Link] (https://github.com/MarekAlexPolak)
+  Github: https://github.com/MarekAlexPolak
   Email: markalexpolak@gmail.com
   
