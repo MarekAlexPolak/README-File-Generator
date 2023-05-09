@@ -9,13 +9,13 @@
 
   ## Table of Contents
 
-  - [Installation](#installation)
+  - [Installation](#installation#installation)
 
   - [Usage](#usage)
 
   - [Credits](#credits)
 
-  - [License](#license)
+  - [License](##license)
 
 
   ## Installation
@@ -44,6 +44,6 @@
 
   ## Contact Information
   
-  Github: https://github.com/MarekAlexPolak
+  [My Github](https://github.com/MarekAlexPolak)
   Email: markalexpolak@gmail.com
   

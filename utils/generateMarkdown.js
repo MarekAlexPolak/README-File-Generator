@@ -55,7 +55,13 @@ function generateMarkdown(data) {
 
   - [Credits](#credits)
 
+  - [Tests](#tests)
+
   ${renderLicenseLink(data.license)}\n
+
+  - [How to Contribute](#how-to-contribute)
+
+  - [Contact Information](#contact-information)
 
   ## Installation
 
@@ -81,7 +87,7 @@ function generateMarkdown(data) {
 
   ## Contact Information
   
-  Github: https://github.com/${data.github}
+  [My Github] (https://github.com/${data.github})
   Email: ${data.email}
   `;
 }
