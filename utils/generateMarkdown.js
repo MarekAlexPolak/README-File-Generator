@@ -1,40 +1,46 @@
-// TODO: Create a function that returns a license badge based on which license is passed in
-// If there is no license, return an empty string
+
 function renderLicenseBadge(license, colour) {
+  //if empty return nothing
   if(license === '' || license === null){
     return '';
   }
+  //else generate image of badge with chosen badge colour
   else {
     return `<img src="https://img.shields.io/badge/License-${license}-${colour}">`
   }
 
 }
 
-// TODO: Create a function that returns the license link
 function renderLicenseLink(license) {
+
+  //if empty return empty string
   if(license === '' || license === null){
     return '';
   }
+  //else generate table of contents entry for license
   else {
     return `- [License](#license)`
   }
 }
-// If there is no license, return an empty string
+
 function renderLicenseSection(license) {
+  //if empty return empty string
   if(license === '' || license === null){
     return '';
   }
+  //else create a license section 
   else {
     return `## License
     
     ${license}`
   }
 }
-
+//function which creates readme based of the users inputs
 function generateMarkdown(data) {
   
   return `
   ${renderLicenseBadge(data.license, data.colour)}
+  
   # ${data.title}
 
   ## Description
@@ -63,17 +69,21 @@ function generateMarkdown(data) {
 
   ${data.credits}
 
+  ## Tests 
+
+  ${data.tests}
+
   ${renderLicenseSection(data.license)}
-
-
 
   ## How to Contribute
   
   ${data.contributing}
 
-  ## Tests 
-
-  ${data.tests}`;
+  ## Contact Information
+  
+  Github: [Github Link] (https://github.com/${data.github})
+  Email: ${data.email}
+  `;
 }
 
 module.exports = generateMarkdown;
