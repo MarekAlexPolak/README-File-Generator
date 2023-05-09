@@ -1,11 +1,11 @@
 
-  <img src="https://img.shields.io/badge/License-wadawdawd-blue">
+  <img src="https://img.shields.io/badge/License-N/A-yellow">
   
-  # awdawed
+  # README File Generator
 
   ## Description
 
-  adawdwad
+  An application used to generate a readmefile
 
   ## Table of Contents
 
@@ -26,31 +26,31 @@
 
   ## Installation
 
-  awdwadawd
+  Install the inquirer
 
   ## Usage
 
-  awdadawd
+  Open the terminal and run the code using node index.js. then answer the questions accordingly in order to generate your readme file
 
   ## Credits
 
-  awdawd
+  N/A
 
   ## Tests 
 
-  awdawd
+  N/A
 
   ## License
     
-    wadawdawd
+    N/A
 
   ## How to Contribute
   
-  awdawdawd
+  N/A
 
   ## Contact Information
   
-  [My Github] (https://github.com/MarekAlexPolak@gmail.com) 
-
+  [My Github] (https://github.com/MarekAlexPolak)
+  
   Email: markalexpolak@gmail.com
   
