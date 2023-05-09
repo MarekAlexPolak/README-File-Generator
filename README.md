@@ -1,5 +1,5 @@
 
-  (<img src="https://img.shields.io/badge/License-N/A-blue">,)
+  <img src="https://img.shields.io/badge/License-N/A-blue">
   # README File Generator
 
   ## Description
